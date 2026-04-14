@@ -25,6 +25,11 @@ You don't need to know how to code to help out, there are many ways to contribut
 
 Get started by reading our [contributing guide](/docs/CONTRIBUTING.md).
 
+## Thank you to our contributors!
+
+- [[★]](https://github.com/canadian-software/web/issues?q=assignee%3Amelaniietong) [@melaniietong](https://github.com/melaniietong)
+- [[★]](https://github.com/canadian-software/web/issues?q=assignee%3Anowshinarony) [@nowshinarony](https://github.com/nowshinarony)
+
 ## Report a problem
 
 If you notice any errors on the website, please submit a [GitHub issue](https://github.com/canadian-software/web/issues/new/) so it can be addressed.
