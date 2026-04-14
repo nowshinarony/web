@@ -1,10 +1,10 @@
-# Canadian SaaS 🍁
+# canadian-software 🍁
 
 > Discover software built right here in Canada
 
 ## Overview
 
-Canadian SaaS is an open-source, not-for-profit, project that enables Canadians to discover Canadian software while also increasing transparency around how data is stored, processed, and tracked.
+canadian-software is an open-source, not-for-profit, project that enables Canadians to discover Canadian software while also increasing transparency around how data is stored, processed, and tracked.
 
 Our mission:
 
