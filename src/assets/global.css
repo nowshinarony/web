@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+
+  /* Primary color */
+  --color-primary: rgb(0 108 155);
+  --color-primary-dark: rgb(48 76 100);
+  --color-primary-light: rgb(220 240 248);
+
+  /* Secondary colors */
+ --color-secondary: rgb(230 168 23);
+  --color-secondary-light: rgb(253 240 196 /0.4); /* 0.4 => 40% opacity */
+
+
+  /* Tertiary colors */
+   --color-tertiary: rgb(255 175 95);
+  --color-tertiary-light: rgb(255 175 95 / 0.4); /* 0.4 => 40% opacity */
+
+  /* Accent color */
+   --color-accent: rgb(217 79 61);
+
+
+   /******************************
+             Neutrals 
+    ******************************/
+
+     --color-neutral-black: rgb(16 16 16);  
+     --color-neutral-white: rgb(255, 255,255); 
+     --color-subtext: rgb(68 68 68);  
+     --color-hint: rgb(118 118 118);  
+     --color-border: rgb(200 208 219);  
+     --color-pill-background: rgb(238 242 247);  
+     --color-links: rgb(26 86 219); 
+
+
+     /******************************
+             Background 
+    ******************************/
+
+    --color-app-gradient-start: rgb(240 247 247);   /* apps overall background*/
+    --color-app-gradient-end: rgb(211 255 255);  
+
+
+   
+    
+  
+}
+
+.dark {
+
+}
