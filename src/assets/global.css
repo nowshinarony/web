@@ -1,51 +1,54 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
 
-  /* Primary color */
-  --color-primary: rgb(0 108 155);
-  --color-primary-dark: rgb(48 76 100);
-  --color-primary-light: rgb(220 240 248);
+  /* Primitive tokens */
 
-  /* Secondary colors */
- --color-secondary: rgb(230 168 23);
-  --color-secondary-light: rgb(253 240 196 /0.4); /* 0.4 => 40% opacity */
+  --color-blue-200: rgb(220 240 248);
+  --color-blue-500: rgb(0 108 155);
+  --color-blue-800: rgb(48 76 100);
 
+  --color-amber-100: rgb(245 244 227);
+  --color-amber-300: rgb(246 228 188);
+  --color-amber-500: rgb(230 168 23);
 
-  /* Tertiary colors */
-   --color-tertiary: rgb(255 175 95);
-  --color-tertiary-light: rgb(255 175 95 / 0.4); /* 0.4 => 40% opacity */
+  --color-terracotta-500: rgb(217 79 61);
 
-  /* Accent color */
-   --color-accent: rgb(217 79 61);
+  --color-black: rgb(16 16 16);
+  --color-white: rgb(255 255 255);
 
+  --color-neutral-100: rgb(238 242 247);
+  --color-neutral-300: rgb(200 208 219);
+  --color-neutral-600: rgb(97 103 112);
+  --color-neutral-800: rgb(55 59 66);
 
-   /******************************
-             Neutrals 
-    ******************************/
+  --color-cobalt-500: rgb(26 86 219);
 
-     --color-neutral-black: rgb(16 16 16);  
-     --color-neutral-white: rgb(255, 255,255); 
-     --color-subtext: rgb(68 68 68);  
-     --color-hint: rgb(118 118 118);  
-     --color-border: rgb(200 208 219);  
-     --color-pill-background: rgb(238 242 247);  
-     --color-links: rgb(26 86 219); 
+  --color-cyan-100: rgb(240 247 247);
+  --color-cyan-200: rgb(211 255 255);
 
+  /* Semantic tokens */
 
-     /******************************
-             Background 
-    ******************************/
+  --color-primary: var(--color-blue-500);
+  --color-primary-hover: var(--color-blue-800);
 
-    --color-app-gradient-start: rgb(240 247 247);   /* apps overall background*/
-    --color-app-gradient-end: rgb(211 255 255);  
+  --color-accent: var(--color-amber-500);
+  --color-accent-soft: var(--color-amber-300);
+  --color-accent-subtle: var(--color-amber-100);
 
+  /* Backgrounds */
 
-   
-    
-  
-}
+  --color-background-gradient-top: var(--color-cyan-200);
+  --color-background-default: var(--color-cyan-100);
+  --color-surface-default: var(--color-white);
 
-.dark {
+  /* Text */
 
+  --color-foreground: var(--color-black);
+  --color-muted: var(--color-neutral-800);
+  --color-link: var(--color-cobalt-500);
+  --color-highlight: var(--color-terracotta-500);
+
+  /* Borders */
+  --color-border-default: var(--color-neutral-300);
 }
