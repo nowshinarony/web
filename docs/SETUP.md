@@ -16,13 +16,13 @@ Supported versions are listed in the `package.json` as well.
 1. Clone the repository
 
 ```bash
-git clone git@github.com:melaniietong/csaas.git
+git clone git@github.com:canadian-software/web.git
 ```
 
 2. Position yourself at the project root
 
 ```bash
-cd csaas
+cd web
 ```
 
 3. Install dependencies

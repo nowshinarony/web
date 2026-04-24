@@ -1,10 +1,10 @@
-# Canadian SaaS 🍁
+# canadian-software 🍁
 
 > Discover software built right here in Canada
 
 ## Overview
 
-Canadian SaaS is an open-source, not-for-profit, project that enables Canadians to discover Canadian software while also increasing transparency around how data is stored, processed, and tracked.
+canadian-software is an open-source, not-for-profit, project that enables Canadians to discover Canadian software while also increasing transparency around how data is stored, processed, and tracked.
 
 Our mission:
 
@@ -24,6 +24,11 @@ You don't need to know how to code to help out, there are many ways to contribut
 | UI/UX design, providing feedback, improving copy/communication, planning new features, reporting bugs, auditing our data, graphic design | Fixing bugs, adding new features, refactoring, improving performance, adding data, data optimization, creating pipelines |
 
 Get started by reading our [contributing guide](/docs/CONTRIBUTING.md).
+
+## Thank you to our contributors!
+
+- [[★]](https://github.com/canadian-software/web/issues?q=assignee%3Amelaniietong) [@melaniietong](https://github.com/melaniietong)
+- [[★]](https://github.com/canadian-software/web/issues?q=assignee%3Anowshinarony) [@nowshinarony](https://github.com/nowshinarony)
 
 ## Report a problem
 
