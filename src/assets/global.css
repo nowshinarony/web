@@ -1,6 +1,5 @@
-@import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'tailwindcss';
 
 @theme {
   /* Colors */
@@ -56,4 +55,133 @@
   --color-border-default: var(--color-neutral-300);
 
   /* Fonts */
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Noto Serif', serif;
+
+  /* Font size */
+  --font-size-6: 6px;
+  --font-size-8: 8px;
+  --font-size-10: 10px;
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-28: 28px;
+  --font-size-32: 32px;
+  --font-size-36: 36px;
+
+  /* Line height */
+  --line-height-100: 1;
+  --line-height-140: 1.4;
+}
+
+@layer components {
+  .heading-1 {
+    @apply font-serif font-bold leading-140;
+    font-size: var(--font-size-24);
+  }
+  .heading-2 {
+    @apply font-serif font-semibold leading-140;
+    font-size: var(--font-size-20);
+  }
+  .heading-3 {
+    @apply font-sans font-bold leading-140;
+    font-size: var(--font-size-18);
+  }
+  .heading-4 {
+    @apply font-sans font-semibold leading-140;
+    font-size: var(--font-size-14);
+  }
+  .subheading {
+    @apply font-sans font-normal leading-140;
+    font-size: var(--font-size-14);
+  }
+  .body {
+    @apply font-sans font-normal leading-140;
+    font-size: var(--font-size-12);
+  }
+  .body-semibold {
+    @apply font-sans font-semibold leading-140;
+    font-size: var(--font-size-12);
+  }
+  .caption {
+    @apply font-sans font-normal leading-140;
+    font-size: var(--font-size-8);
+  }
+  .label {
+    @apply font-sans font-bold leading-140;
+    font-size: var(--font-size-6);
+  }
+  .number {
+    @apply font-sans font-bold leading-100;
+    font-size: var(--font-size-6);
+  }
+
+  @media (min-width: 768px) {
+    .heading-1 {
+      font-size: var(--font-size-28);
+    }
+    .heading-2 {
+      font-size: var(--font-size-24);
+    }
+    .heading-3 {
+      font-size: var(--font-size-20);
+    }
+    .heading-4 {
+      font-size: var(--font-size-16);
+    }
+    .subheading {
+      font-size: var(--font-size-16);
+    }
+    .body {
+      font-size: var(--font-size-14);
+    }
+    .body-semibold {
+      font-size: var(--font-size-14);
+    }
+    .caption {
+      font-size: var(--font-size-10);
+    }
+    .label {
+      font-size: var(--font-size-8);
+    }
+    .number {
+      font-size: var(--font-size-8);
+    }
+  }
+  @media (min-width: 1024px) {
+    .heading-1 {
+      font-size: var(--font-size-36);
+    }
+    .heading-2 {
+      font-size: var(--font-size-32);
+    }
+    .heading-3 {
+      font-size: var(--font-size-24);
+    }
+    .heading-4 {
+      font-size: var(--font-size-20);
+    }
+    .subheading {
+      font-size: var(--font-size-20);
+    }
+    .body {
+      font-size: var(--font-size-16);
+    }
+    .body-semibold {
+      font-size: var(--font-size-16);
+    }
+    .caption {
+      font-size: var(--font-size-14);
+    }
+    .label {
+      font-size: var(--font-size-12);
+    }
+    .number {
+      font-size: var(--font-size-10);
+    }
+  }
 }
