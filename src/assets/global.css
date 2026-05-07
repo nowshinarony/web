@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import 'tailwindcss';
 
 @theme {
+  /* ===================
+        Colors
+  ====================== */
 
   /* Primitive tokens */
 
@@ -42,7 +47,7 @@
   --color-background-default: var(--color-cyan-100);
   --color-surface-default: var(--color-white);
 
-  /* Text */
+  /* Text Colors */
 
   --color-foreground: var(--color-black);
   --color-muted: var(--color-neutral-800);
@@ -50,6 +55,139 @@
   --color-highlight: var(--color-terracotta-500);
 
   /* Borders */
+
   --color-border-default: var(--color-neutral-300);
-  
+
+  /* ===================
+        Fonts
+  ====================== */
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Noto Serif', serif;
+
+  /* Font size */
+  --font-size-6: 0.375rem;
+  --font-size-8: 0.5rem;
+  --font-size-10: 0.625rem;
+  --font-size-12: 0.75rem;
+  --font-size-14: 0.875rem;
+  --font-size-16: 1rem;
+  --font-size-18: 1.125rem;
+  --font-size-20: 1.25rem;
+  --font-size-24: 1.5rem;
+  --font-size-28: 1.75rem;
+  --font-size-32: 2rem;
+  --font-size-36: 2.25rem;
+
+  /* Line height */
+  --leading-100: 1;
+  --leading-140: 1.4;
+}
+
+@layer components {
+  .heading-1 {
+    @apply font-serif font-bold leading-140;
+    font-size: var(--font-size-24);
+  }
+  .heading-2 {
+    @apply font-serif font-semibold leading-140;
+    font-size: var(--font-size-20);
+  }
+  .heading-3 {
+    @apply font-sans font-bold leading-140;
+    font-size: var(--font-size-18);
+  }
+  .heading-4 {
+    @apply font-sans font-semibold leading-140;
+    font-size: var(--font-size-14);
+  }
+  .subheading {
+    @apply font-sans font-normal leading-140;
+    font-size: var(--font-size-14);
+  }
+  .body {
+    @apply font-sans font-normal leading-140;
+    font-size: var(--font-size-12);
+  }
+  .body-semibold {
+    @apply font-sans font-semibold leading-140;
+    font-size: var(--font-size-12);
+  }
+  .caption {
+    @apply font-sans font-normal leading-140;
+    font-size: var(--font-size-8);
+  }
+  .label {
+    @apply font-sans font-bold leading-140;
+    font-size: var(--font-size-6);
+  }
+  .number {
+    @apply font-sans font-bold leading-100;
+    font-size: var(--font-size-6);
+  }
+
+  @media (min-width: 768px) {
+    .heading-1 {
+      font-size: var(--font-size-28);
+    }
+    .heading-2 {
+      font-size: var(--font-size-24);
+    }
+    .heading-3 {
+      font-size: var(--font-size-20);
+    }
+    .heading-4 {
+      font-size: var(--font-size-16);
+    }
+    .subheading {
+      font-size: var(--font-size-16);
+    }
+    .body {
+      font-size: var(--font-size-14);
+    }
+    .body-semibold {
+      font-size: var(--font-size-14);
+    }
+    .caption {
+      font-size: var(--font-size-10);
+    }
+    .label {
+      font-size: var(--font-size-8);
+    }
+    .number {
+      font-size: var(--font-size-8);
+    }
+  }
+  @media (min-width: 1024px) {
+    .heading-1 {
+      font-size: var(--font-size-36);
+    }
+    .heading-2 {
+      font-size: var(--font-size-32);
+    }
+    .heading-3 {
+      font-size: var(--font-size-24);
+    }
+    .heading-4 {
+      font-size: var(--font-size-20);
+    }
+    .subheading {
+      font-size: var(--font-size-20);
+    }
+    .body {
+      font-size: var(--font-size-16);
+    }
+    .body-semibold {
+      font-size: var(--font-size-16);
+    }
+    .caption {
+      font-size: var(--font-size-14);
+    }
+    .label {
+      font-size: var(--font-size-12);
+    }
+    .number {
+      font-size: var(--font-size-10);
+    }
+  }
 }
