@@ -10,6 +10,9 @@ import RightArrow from '@/assets/icons/right-arrow.svg'
 import Storage from '@/assets/icons/storage.svg'
 import Update from '@/assets/icons/update.svg'
 import UpArrow from '@/assets/icons/up-arrow.svg'
+import Email from '@/assets/icons/email.svg'
+import Github from '@/assets/icons/github.svg'
+import Globe from '@/assets/icons/globe.svg'
 
 export const icons = {
   'company': Company,
@@ -24,4 +27,7 @@ export const icons = {
   'storage': Storage,
   'update': Update,
   'up-arrow': UpArrow,
+  'email': Email,
+  'github': Github,
+  'globe': Globe,
 }
