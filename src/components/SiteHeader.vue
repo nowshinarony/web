@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
 import content from '@/data/content-en.json'
+import Icon from '@/components/Icon.vue'
 
 const router = useRouter()
 </script>
@@ -15,5 +16,6 @@ const router = useRouter()
       <h1>{{ content.title }}</h1>
     </button>
     <p class="pl-2">{{ content.tagline }}</p>
+    <Icon name="eye" />
   </div>
 </template>
